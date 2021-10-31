@@ -1,0 +1,21 @@
+{% extends "base.html"%}
+{% block content %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+ <link type="text/css" rel="stylesheet" href="{{url_for('static',filename = 'layout.css')}}">
+</head>
+<body>
+<div class="wrap">
+    <h1 style="color: violet;">welcome to my personal portfolio website</h1>
+    <p>
+        <strong style="color : pink; ">Flask </strong>is a micro web framework written in Python.
+
+        It is classified as a microframework because it<br>
+        does not require particular tools or libraries.
+    </p>
+</div>
+</body>
+</html>
+{% blockend %}

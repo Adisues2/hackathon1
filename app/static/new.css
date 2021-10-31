@@ -1,0 +1,19 @@
+.word{
+ background-color: #987;
+    width: 80%;
+    height: 60%;
+    margin:30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+body{
+background-color:#a45d;
+
+}
+
+body:hover{
+    color: aquamarine;
+    background-color: rgb(66, 79, 104);
+    transition: 0.5s active;
+}

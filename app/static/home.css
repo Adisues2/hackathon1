@@ -1,0 +1,13 @@
+body{
+ background-color: #987;
+
+    margin:30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+body:hover{
+    color: aquamarine;
+    background-color: rgb(66, 79, 104);
+    transition: 0.5s active;
+}
